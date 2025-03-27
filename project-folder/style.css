@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px 40px 0px 40px;
+}
+
+.guideline {
+    width: 20%;
+}
+
+.hero-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+
+
+
+header {
+    padding-top: 30px;
+    display: flex;
+}
+
+header .logo {
+    color: #ffffff;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav {
+    float: center;
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+header nav ul {
+    width: 215px;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+header .btn {
+    font-weight: 700;
+}
+
+
+
+
+
+.hero--img {
+    max-width: 40%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.tags {
+    max-width: 40%;
+
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+
+    margin-left: 20%;
+    /* text-indent: 10px; */
+}
+tag {
+    color: #cacaca;
+    background-color: #2F2F2F;
+
+    font-weight: 400;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-align: left;
+
+    padding: 5px 12px 5px 12px;
+    margin-right: 10px;
+    border-radius: 12px;
+}
+
+
+
+
+
+.portfolio {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.portfolio li {
+    width: 25%;
+    margin-right: 10px;
+    background-color: #2F2F2F;
+    border-radius: 12px;
+}
+
+.portfolio figure {
+    width: 40%;
+    background-color: transparent;
+    margin:40% 30% 38% 30%;
+}
+
+.portfolio img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+
+.reviews {
+    width: 80%;
+}
+
+.reviews ul{
+    list-style: none;
+}
+
+.reviews li {
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.reviews h3 {
+    color: #919191;
+}
+
+.reviews p {
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: -2px;
+}
+
+
+
+
+
+.price {
+    width: 40%;
+}
+
+.price ul{
+    list-style: none;
+}
+
+.price li {
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.price h3 {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.desc {
+    color:#919191;
+}
+
+
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer div {
+    margin-left: 20%;
+}
+
+footer ul{
+    margin-top:80px;
+    list-style: none;
+}
+
+footer h3{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    font-size: 44px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+h1 {
+    color: #ffffff;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: -4px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+h3 {
+    color: #919191;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+p {
+    color:#ffffff;
+    font-size: 14px;
+    padding-top: 30px;
+    text-overflow:clip;
+}
+
